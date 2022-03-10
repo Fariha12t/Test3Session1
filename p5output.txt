@@ -1,1 +1,18 @@
+void output(int n, int a[n], int largest)
+{
+  for ( int i=1; i<n;i++)
+    {
+      printf("%d is largest ", a[0]);
+    }
+}
+int main()
+{
+  int n,x;
+  n=input_size();
+  int a[n];
+  input_array(n,a);
+  x=find_largest(n,a);
+  output(n,a,x);
+  return 0;
+}
 
