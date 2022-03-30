@@ -17,11 +17,13 @@ void add(int num1,int den1,int num2,int den2,int *num3,int *den3)
   *num3=*num3/gcd;
   *den3=*den3/gcd;
 }
+
 void output(int num1,int den1,int num2,int den2,int num3,int den3)
 {
   
-  printf("The sum of two fraction is %d/%d\n",num3,den3);
+  printf("The sum of two fraction is %d/%d\t",num3,den3);
 }
+
 int main()
 {
   int num1,den1,num2,den2,num3,den3;

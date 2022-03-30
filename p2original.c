@@ -11,6 +11,7 @@ Fraction input_fraction()
   scanf("%d%d", &f.num,&f.den);
   return f;
 }
+
 Fraction Smallest_fraction(Fraction f1,Fraction f2, Fraction f3)
 {
   Fraction  smallest ,f4;
@@ -33,6 +34,7 @@ Fraction Smallest_fraction(Fraction f1,Fraction f2, Fraction f3)
   }
   return smallest;
 }
+
 void output(Fraction f1, Fraction f2, Fraction f3, Fraction smallest)
 {
 

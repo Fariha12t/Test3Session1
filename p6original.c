@@ -18,31 +18,7 @@ int count_words(char *string)
   return count;
     
 }
-/*int count_words(char *string)
-{
-  char a[20];
-  int i=0,count=0, word=0;
-  do
-  
-    {
-      if(a[i]==' ' || a[i]=='\t' || a[i]=='\0')
-      {
-        if(word)
-        {
-          word=0;
-          count++;
-        }
-         else
-      {
-        word=1;
-      }
-      }
-      }
-      while(a[i++]);
-        
-   return count;
-    
-}*/
+
 void output(char *string, int no_words)
 {
   
