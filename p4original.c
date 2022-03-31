@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int input_degree()
 {
   int n;
