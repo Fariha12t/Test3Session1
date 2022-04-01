@@ -17,16 +17,14 @@ int find_largest(int n, int a[n])
 {
   int index=0;
   for(int i=0;i<n;i++)
-    {
+  {
       if(a[index]<a[i])
         index=i;
-    }
-  
+  }
   return index;
 }
 void output(int n, int a[n], int largest )
-{
-  
+{ 
   printf("largest is %d ",a[largest]);
   {
   printf("its index is %d",largest);
