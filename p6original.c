@@ -15,13 +15,10 @@ int count_words(char *string)
        count=count+1;
      }
     }
-  return count;
-    
+  return count;   
 }
-
 void output(char *string, int no_words)
-{
-  
+{ 
   printf("number of words %d",no_words+1);
 }
 int main()
