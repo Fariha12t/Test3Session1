@@ -14,8 +14,8 @@ Fraction input_fraction()
 
 Fraction Smallest_fraction(Fraction f1,Fraction f2, Fraction f3)
 {
-  Fraction  smallest ,f4;
-  f4.den=f1.den*f2.den*f3.den;
+  
+  Fraction smallest;
   if(f1.num*f2.den< f2.num*f1.den) 
   {
     if (f1.num*f3.den<f3.num*f1.den)
