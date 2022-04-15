@@ -5,22 +5,28 @@ int input(int *n, int *r)
   scanf("%d%d", n,r);
   return 0;  
 }
-int ncr(int n, int r)
+
+int ncr(int n,int r)
 {
-  float ncr;
-  int fact(int a);
-  ncr=fact(n)/(fact(r)*fact(n-r));
-}
-int fact(int a)
-{
-  if(a==1)
-    return 1;
-  else 
-    return a*fact(a-1);
+  int a=1,b=1,c=1,d;
+  for(int i=1;i<=n;i++)
+    {
+      a=a*i;
+    }
+  for(int i=1;i<=(n-r);i++)
+    {
+      b=b*i;
+    }
+  for(int i=1;i<=r;i++)
+    {
+      c=c*i;
+    }
+  d=a/(c*b);
+  return d;
 }
 void output(int n, int r , int result)
 {
-  printf("nCr factorial of %d and %d is %d", n,r,result);
+  printf("the value of %dC%d is %d", n,r,result);
 }
 int main()
 {
