@@ -27,8 +27,7 @@ float evaluate_polynomial(int n,float a[n],float x)
   int sum=0;
   for(int i=n;i>0;i--)
     {
-      sum=(sum+a[i])*x;
-      
+      sum=(sum+a[i])*x;   
     }
   sum=sum+a[0];
   return sum;

@@ -8,9 +8,9 @@ int input_size()
 }
 void input_array(int n, int a[n])
 {
-  int i;
+  
   printf("enter the values of array:\n");
-  for(i=0; i<n; i++)
+  for(int i=0; i<n; i++)
     scanf("%d", &a[i]);
 }
 int find_largest(int n, int a[n])
